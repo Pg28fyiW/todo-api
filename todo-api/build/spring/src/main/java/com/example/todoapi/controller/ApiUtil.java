@@ -2,7 +2,7 @@ package com.example.todoapi.controller;
 
 import org.springframework.web.context.request.NativeWebRequest;
 
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class ApiUtil {
