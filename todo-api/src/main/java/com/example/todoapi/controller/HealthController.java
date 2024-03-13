@@ -8,6 +8,7 @@ public class HealthController implements HealthApi {
 
     @Override
     public ResponseEntity<Void> healthGet() {
-        return HealthApi.super.healthGet();
+
+        return ResponseEntity.ok().build();
     }
 }
