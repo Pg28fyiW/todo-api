@@ -1,6 +1,5 @@
 package com.example.todoapi.controller.campaign;
 
-import com.example.todoapi.controller.CampaignDTO;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,4 +19,6 @@ public class CampaignController {
                 "00",
                 "01");
     }
+
+
 }
